@@ -61,6 +61,7 @@ describe("EventEmitter", () => {
   describe("off", () => {
     test("should remove a listener for an event", () => {
       const listener = jest.fn();
+
       eventEmitter.on("event", listener);
       eventEmitter.off("event", listener);
       eventEmitter.emit("event");
