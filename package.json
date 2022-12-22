@@ -7,6 +7,9 @@
   "author": "zxf4399",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
     "jest": "^29.3.1"
   }
 }

@@ -1,2 +1,5 @@
 # pnpm
 node_modules
+
+# jest
+coverage
